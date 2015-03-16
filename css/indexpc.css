@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{background:#eb570f;position:relative;}
+
+.mask{background:#000;opacity:0.7;position:absolute;height:100%;width:100%;z-index:99;display:none;}
+.container{position:relative;z-index:1;}
+.actresult{width:477px;height:420px;position:absolute;background:url(../images/1.png) no-repeat;;z-index:101;display:none;}
+.receive{background:url(../images/receive.png);border:0;width:259px;height:49px;margin:370px 0 0 118px;cursor:pointer;}
+.close{background:url(../images/close.png);cursor:pointer;width:26px;height:26px;float:right;}
+
+.para1{background:url(../images/p1bg-pc.png) center top no-repeat;overflow:hidden;margin-bottom:20px;width:1024px;margin:0 auto;}
+.para1 a{margin:40px 0 5px;display:block;}
+.para1 p{margin:10px 25px;font-size:20px;color:#fff;font-family:"微软雅黑";}
+.para1 .ticket{background:url(../images/ticket-pc.png);width:636px;height:354px;margin:0 auto 30px;}
+.para1 .activity{background:url(../images/logopc.png);width:707px;height:387px;margin:0 auto 30px;}
+
+.para2{background:#ff7e00;overflow:hidden;}
+.para2-laceup{height:13px;background:url(../images/laceup.png);}
+.para2-lacedown{height:13px;background:url(../images/lacedown.png);}
+.para2-lacedown1{height:12px;background:url(../images/lacedown1.png);}
+.para2 .title{background:url(../images/title.png) no-repeat;width:1024px;height:119px;margin:20px auto 20px;}
+.para2 .title1{background:url(../images/title2pc.png) no-repeat center;width:1024px;height:120px;margin:20px auto 20px;}
+.para2 .actinfo{width:1024px;overflow:hidden;margin:0 auto 20px;}
+.para2 .content{background:url(../images/contentpc.png) no-repeat;width:397px;height:255px;float:left;margin:40px 0 0 10px;}
+.para2 .content1{background:url(../images/content1pc.png) no-repeat;width:480px;height:279px;float:left;margin:40px 0 0 10px;}
+.para2 .picture{background:url(../images/picpc.png) no-repeat;width:593px;height:435px;margin:0 auto;float:right;}
+.para2 .picture1{background:url(../images/pic1pc.png) no-repeat;width:520px;height:365px;margin:0 auto;float:right;}
+.para2 .rob-ticket{width:286px;height:55px;background:url(../images/btn.png);cursor:pointer;border:0;display:block;margin:16px 120px 0 0;float:right;}
+.bar{overflow:hidden;width:100%;}
+.para2.acttips{overflow:hidden;width:480px;margin:25px 10px 0 0;float:right;}
+.para2 .acttips1{overflow:hidden;float:left;}
+.para2 .acttips1 p{font-size:16px;}
+.para2 .tips{background:url(../images/tipspc.png) no-repeat;width:249px;height:59px;margin:16px 45px 0 0;float:right;}
+.para2 p{margin:10px 25px;font-size:20px;color:#fff;font-family:"微软雅黑";}
+.para2 .table{background:url(../images/tablepc.png) no-repeat;width:503px;height:202px;margin:25px 0 30px;float:left;}
+
+.para3{width:1024px;margin:0 auto;}
+.para3 .title1{background:url(../images/title1pc.png) no-repeat;width:667px;height:119px;margin:20px 0 0;}
+.para3 .para3 p{margin:10px 15px;font-size:18px;color:#fff;font-family:"微软雅黑";}
+.para3 .table1{background:url(../images/table1pc.png);width:987px;height:239px;margin:20px auto 30px;}
+.para3 .rule{background:url(../images/rulepc.png) no-repeat;height:57px;margin:20px;border-bottom:2px solid #fff;}
+.para3 .special{width:286px;height:54px;background:url(../images/btn1.png);cursor:pointer;border:0;display:block;margin:60px auto;}
+
+.para4{width:100%;}
+.para4 .mv-title{background:url(../images/mv.png) no-repeat;width:1024px;height:70px;margin:40px auto 0;}
+.para4 .mv-bg{background:url(../images/mvbg.png) no-repeat center;width:1332px;height:568px;margin:0 auto;overflow:hidden;}
+.para4 .mvscreen{width:592px;height:383px;background:url(../images/mvscreen.png);margin:55px 0 0 164px;float:left;}
+.para4 .mvinfo{background:url(../images/mvinfo.png);width:351px;height:299px;float:right;margin:70px 200px 0 0;}
+
+.para5{overflow:hidden;background:#fff;margin:0 auto;}
+.para5 .title{height:43px;background:url(../images/title3pc.png) no-repeat center;margin:20px 0 ; }
+.para5 .para5-content{border:1px solid green;}
+.para5 .flower{height:13px;background:url(../images/flower.png) no-repeat center}
+.para5 .para5-title{height:43px;background:url(../images/a1.png) no-repeat center;margin:20px 0 ;}
+.para5 .para5-content2{background:#FFF6E4;}
+.para5 .go-index{}
+
+
+
+.footer{height:65px;background:#545454;line-height:65px;text-align:center;font-size:18px;color:#fff;}

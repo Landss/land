@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{background:#eb570f;position:relative;}
+
+
+.mask{background:#000;opacity:0.7;position:absolute;height:100%;width:100%;z-index:99;display:none;}
+.container{position:relative;z-index:1;width:100%;}
+.actresult{width:100%;position:absolute;z-index:101;display:none;text-align:center;}
+.actresult img{width:100%;margin-bottom:20px;}
+.receive{background:url(../images/receive.png);border:0;width:259px;height:49px;cursor:pointer;}
+.close{background:url(../images/close.png);cursor:pointer;width:26px;height:26px;float:right;margin:20px;}
+
+.para1{background:url(../images/p1bg.png) center top no-repeat;overflow:hidden;margin-bottom:20px;}
+.para1 a{margin:25px 0 30px 25px;display:block;}
+.para1 p{margin:10px 25px;font-size:20px;color:#fff;font-family:"微软雅黑";}
+.ticket{width:100%;margin:0 auto;}
+
+.para2{background:#ff7e00;}
+.para2-laceup{height:13px;background:url(../images/laceup.png);}
+.para2-lacedown{height:13px;background:url(../images/lacedown.png);}
+.title{width:100%;margin:0 auto 20px;}
+.content{width:90%;margin:0 5% 5px;}
+.picture{width:100%;margin:0 auto;}
+.rob-ticket{width:286px;height:55px;background:url(../images/btn.png);cursor:pointer;border:0;display:block;margin:0 auto;}
+.tips{background:url(../images/tips.png);width:238px;height:92px;margin:16px auto 65px;}
+.para2 p{margin:10px 25px;font-size:20px;color:#fff;font-family:"微软雅黑";}
+.table{width:90%;margin:20px 5% 30px;}
+
+.title1{width:100%;margin:20px;}
+.para3 p{margin:10px 25px;font-size:20px;color:#fff;font-family:"微软雅黑";}
+.table1{width:90%;margin:20px 5% 30px;}
+.rule{height:100%;margin:20px;}
+.special{width:286px;height:54px;background:url(../images/btn1.png);cursor:pointer;border:0;display:block;margin:60px auto;}
+
+.footer{background:#545454;line-height:35px;text-align:center;font-size:14px;color:#fff;}
